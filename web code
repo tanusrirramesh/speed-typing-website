@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Typing Speed Test</title>
+</head>
+<body>
+
+<h1>Typing Speed Test</h1>
+<p>Select a difficulty level and type the given paragraph.</p>
+
+<hr>
+
+<EASY LEVEL>
+<h2>Easy Level</h2>
+<p>
+The sun shines brightly.
+</p>
+
+<textarea rows="6" cols="80" placeholder="Type here for Easy level..."></textarea>
+
+<hr>
+
+<MEDIUM LEVEL>
+<h2>Medium Level</h2>
+<p>
+The doctor advised the man to give up smoking.</p>
+<textarea rows="6" cols="80" placeholder="Type here for Medium level..."></textarea>
+
+<hr>
+
+<HARD LEVEL>
+<h2>Hard Level</h2>
+<p>
+The number of people who smoke is increasing, so cancer will soon be the most common cause of death.
+</p>
+
+<textarea rows="6" cols="80" placeholder="Type here for Hard level..."></textarea>
+
+<hr>
+
+</body>
+</html>
