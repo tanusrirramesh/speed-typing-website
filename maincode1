@@ -1,8 +1,9 @@
 import time
+import random
 
-easy=("The sun shines brightly.")
-medium=("The doctor advised the man to give up smoking.")
-hard=("The number of people who smoke is increasing, so cancer will soon be the most common cause of death.")
+easy=["The sun shines brightly","Python is fun to learn.","I opened the door."]
+medium=["The doctor advised the man to give up smoking.","She completed the assignment before the deadline.","Me and my brother don't see each other often."]
+hard=["The number of people who smoke is increasing, so cancer will soon be the most common cause of death.","The old man sat on the park bench, watching children play as the sun set.","Despite repeated warnings, people continue to ignore the harmful effects of pollution."]
     
 
 print("  TYPING SPEED TEST  \n")
@@ -11,11 +12,14 @@ print("1. Easy \n 2. Medium \n 3. Hard")
 diff=int(input("Enter your choice (1-3): "))
 paragraph=""
 if diff==1:
-    paragraph=easy
+    paragraph=random.choice(easy)
 elif diff==2:
-    paragraph=medium
+    paragraph=random.choice(medium)
+elif diff==3:
+    paragraph=random.choice(hard)
 else:
-    paragraph=hard
+    print("Invalid")
+    exit()
 
 
 print("  Choose Test Duration: \n")
@@ -25,8 +29,11 @@ if timechoice==1:
     timelimit=30
 elif timechoice==2:
     timelimit=60
-else:
+elif timechoice==3:
     timelimit=120
+else:
+    print("Invalid")
+    exit()
 
 print("     START TYPING    \n")
 print("Type the paragraph below continuously.\n")
