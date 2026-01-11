@@ -1,18 +1,13 @@
 import time
 
 easy=("The sun shines brightly.")
-
 medium=("The doctor advised the man to give up smoking.")
-
-
 hard=("The number of people who smoke is increasing, so cancer will soon be the most common cause of death.")
     
 
 print("  TYPING SPEED TEST  \n")
-
-print("Choose Difficulty:")
+print("  Choose Difficulty:")
 print("1. Easy \n 2. Medium \n 3. Hard")
-
 diff=int(input("Enter your choice (1-3): "))
 paragraph=""
 if diff==1:
@@ -25,7 +20,6 @@ else:
 
 print("  Choose Test Duration: \n")
 print("1. 30 seconds \n 2. 1 minute \n 3. 2 minutes")
-
 timechoice=int(input("Enter your choice (1-3): \n"))
 if timechoice==1:
     timelimit=30
